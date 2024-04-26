@@ -1,0 +1,35 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/nbt/src.lua"))()
+local window = library:Win()
+local tap1 = window:addtap("Main")
+local tap2 = window:addtap("Camlock")
+local page1 = tap1:addpage()
+local page2 = tap1:addpage()
+local page3 = tap2:addpage()
+local page4 = tap2:addpage()
+local page5 = tap2:addpage()
+local page6 = tap2:addpage()
+page1:Ti("Project Vault")
+
+page1:Toggle("CAMLOCK BYPASS HC",nil, function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/a", true))()
+end)
+
+page1:Button("HEADLESS+KORBLOX", function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/3"))();
+end)
+
+page2:Ti("Project Vault")
+
+page2:Button1("SILENT BY luhlocker", function(value)
+    loadstring(game:HttpGet("https://pastebin.com/raw/DimmPjsV"))();
+end)
+
+page2:Button1("Tap This To Bypass Hood Custom", function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/valorant"))();
+end)
+
+local getlable = page3:Label("skulledupp on discord")
+
+page3:Button1("Speed Tool", function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/Speed%20tool"))();
+end)
