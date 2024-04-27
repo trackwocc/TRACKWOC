@@ -11,6 +11,10 @@ local page6 = tap2:addpage()
 page1:Ti("Project Vault")
 
 page1:Toggle("CAMLOCK BYPASS HC",nil, function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/reddot1/main/reddot1", true))()
+end)
+
+page1:Toggle("red dot",nil, function(value)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/a", true))()
 end)
 
@@ -24,6 +28,14 @@ page2:Button1("SILENT BY luhlocker", function(value)
     loadstring(game:HttpGet("https://pastebin.com/raw/DimmPjsV"))();
 end)
 
+page2:Button1("Anti", function(value)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+end)
+
+page2:Button1("Universeral resolver", function(value)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/resolved'))()
+end)
+
 page2:Button1("Tap This To Bypass Hood Custom", function(value)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/valorant"))();
 end)
@@ -32,4 +44,12 @@ local getlable = page3:Label("skulledupp on discord")
 
 page3:Button1("Speed Tool", function(value)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/Speed%20tool"))();
+end)
+
+page3:Button1("Right Click", function(value)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+end)
+
+page3:Button1("Stretch res", function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/trackwocc/TRACKWOC/main/One"))();
 end)
