@@ -1,0 +1,12 @@
+while true do
+    heartbeat:Wait()
+    if target == true then
+        local character = game.Players[targetplr].Character.HumanoidRootPart
+        local lastPosition = character.Position
+        task.wait()
+        local currentPosition = character.Position
+        local velocity = (currentPosition - lastPosition) * 0
+        character.AssemblyLinerVelocity = velocity
+        character.Velocity = velocity
+    end
+end
