@@ -1,7 +1,7 @@
 getgenv().keytoclick = "E"
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
-tool.Name = "Cam Tool"
+tool.Name = "TOKEN.CC"
 tool.Activated:connect(function()
     local vim = game:service("VirtualInputManager")
     vim:SendKeyEvent(true, keytoclick, false, game)
@@ -9,8 +9,8 @@ end)
 tool.Parent = game.Players.LocalPlayer.Backpack
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Project CamLock",
-    Text = "skulledupp On Discord",
+    Title = "TOKEN.cc CamLock",
+    Text = "made by @trackwoc",
 })
 
 local player = game.Players.LocalPlayer
@@ -60,7 +60,7 @@ local SelectedDisableKey = getgenv().DisableKey
     
 function Notify(tx)    
     SG:SetCore("SendNotification", {    
-        Title = "luhlocker CamLock",    
+        Title = "Token.cc CamLock",    
         Text = tx,    
         Duration = 5    
     })    
